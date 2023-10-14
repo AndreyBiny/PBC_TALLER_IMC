@@ -1,0 +1,153 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #520014;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  
+    /* justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+    
+    width: 100%;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    width: 400px;
+    
+    padding: 40px;
+    background-color: rgb(119, 58, 73);
+    border-radius: 10px;
+    border: 5px solid #cb6161;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  /* Estilo para las etiquetas del formulario */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    
+  }
+  
+  /* Estilo para los campos de entrada de texto */
+  input {
+    width: 310px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el elemento select */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #be1717;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: Verdana, Arial, sans-serif;
+    
+  }
+  
+  /* Estilo para las opciones del select */
+  select option {
+    padding: 5px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el hover de las opciones */
+  select option:hover {
+    background-color: #be1717;
+    color: #fff;
+  }
+  
+  /* Estilo para la opción seleccionada */
+  select option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilo para el hover del elemento select */
+  select:hover {
+    border-color: #be1717;
+  }
+  
+  
+  /* Estilo para los botones del formulario */
+  button[type="submit"] {
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  
+    border: 2px solid #cb6161;
+    border-radius: 6px;
+    background-color: white; 
+    color: black; 
+  }
+  
+  /* Estilo para los botones al pasar el mouse sobre ellos */
+  button[type="submit"]:hover {
+    background-color: #be1717;
+    color: rgb(255, 255, 255); 
+    
+  }
+  
+  #titulo{
+    width: 850px;
+    top: -150px;
+    font-size: 70px;
+    font-style: oblique;
+    color: rgb(217, 180, 180);
+    position: relative;
+    left: 50px;
+  }
+  
+  #titulo2{
+    width: 800px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family:monospace;
+    color: rgb(217, 180, 180);
+    position: relative;
+    left: 95px;
+  }
+  
+  #imagen {
+    align-self: center;
+    width: 80%;
+    position: relative;
+    top: 50px; left: 40px;
+  }
+  
+  #imcimagen {
+    align-self: center;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+  
+  }
+  
+  #imclabel{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 20px; left: 0px;
+  }
+  
+  #validacion{
+    font-size: 14px;
+    padding: 2px;
+    width: 215px;
+  }
+  
